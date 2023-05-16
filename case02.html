@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Case 01</title>
+
+  <style>
+    main{
+      border: 5px solid darkgreen;
+      width: 98vw ;
+      height: 46vw;
+
+      position: relative;
+    }
+    section{
+      background-color: red;
+      width: 50%;
+      height: 23vw;
+
+      position: absolute;
+    }
+
+    .orange{
+      background-color: orange;
+      width: 50%;
+      height: 23vw;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .green{
+      background-color: green;
+      width: 50%;
+      height: 23vw;
+      right: 0;
+      position: absolute;
+
+    }
+
+    .pink{
+      background-color: hotpink;
+      width: 50%;
+      height: 23vw;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+    }
+
+    .center{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+
+    }
+
+    .centercircle{
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .reddot{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      border-radius: 50%;
+      position: absolute;
+
+    }
+
+    .redsquare{
+      background-color: red;
+      width: 75px;
+      height: 75px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    .orangedot{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      border-radius: 50%;
+      position: absolute;
+
+    }
+
+    .orangesquare{
+      background-color: red;
+      width: 75px;
+      height: 75px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    .greendot{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      border-radius: 50%;
+      position: absolute;
+
+    }
+    .greensquare{
+      background-color: red;
+      width: 75px;
+      height: 75px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    .pinkdot{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      border-radius: 50%;
+      position: absolute;
+
+    }
+    .pinksquare{
+      background-color: red;
+      width: 75px;
+      height: 75px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    .leftup{
+      background-color: white;
+      width: 7vw;
+      height: 7vw;
+      left: 0;
+      margin: auto;
+      border-bottom-right-radius: 100%;
+      position: absolute;
+    }
+
+    .halfred{
+      background-color: white;
+      width: 5vw;
+      height: 5vw;
+      right: 0;
+      margin: auto;
+      border-bottom-left-radius: 100%;
+      position: absolute;
+    }
+
+    .halfgreen{
+      background-color: white;
+      width: 5vw;
+      height: 5vw;
+      left: 0;
+      margin: auto;
+      border-bottom-right-radius: 100%;
+      position: absolute;
+    }
+
+    .halforange{
+      background-color: white;
+      width: 5vw;
+      height: 5vw;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border-top-left-radius: 100%;
+      position: absolute;
+    }
+
+    .halfpink{
+      background-color: white;
+      width: 5vw;
+      height: 5vw;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      border-top-right-radius: 100%;
+      position: absolute;
+    }
+
+    .leftdown{
+      background-color: white;
+      width: 7vw;
+      height: 7vw;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      border-top-right-radius: 100%;
+      position: absolute;
+    }
+
+    .rightup{
+      background-color: white;
+      width: 7vw;
+      height: 7vw;
+      right: 0;
+      top: 0;
+      margin: auto;
+      border-bottom-left-radius: 100%;
+      position: absolute;
+    }
+
+    .rightdown{
+      background-color: white;
+      width: 7vw;
+      height: 7vw;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border-top-left-radius: 100%;
+      position: absolute;
+    }
+
+  </style>
+</head>
+<body>
+<main>
+  <section>
+    <div class="leftup"> </div>
+    <div class="halfred"> </div>
+    <div class="reddot">
+      <div class="redsquare"></div>
+
+
+    </div>
+  </section>
+
+  <section class="orange">
+    <div class="leftdown"> </div>
+    <div class="halforange"> </div>
+    <div class="orangedot">
+      <div class="orangesquare"></div>
+    </div>
+  </section>
+
+  <section class="green">
+    <div class="rightup"> </div>
+    <div class="halfgreen"> </div>
+    <div class="greendot">
+      <div class="greensquare"></div>
+
+    </div>
+  </section>
+
+  <section class="pink">
+    <div class="rightdown"> </div>
+    <div class="halfpink"> </div>
+    <div class="pinkdot">
+      <div class="pinksquare"></div>
+
+    </div>
+  </section>
+
+  <section class="center">
+
+  </section>
+
+  <section class="centercircle">
+
+  </section>
+
+
+</main>
+</body>
+</html>
+</body>
+</html>
